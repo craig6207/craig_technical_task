@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col pb-5" *ngFor="let taskBox of taskBoxData; let i = index">
+        <div class="hymans-task-box hymans-flex">
+          <div class="row row-cols-2">
+            <div class="col-3 hymans-flex">
+                  <img class="img-fluid ng-test-image-{{i}}" alt="accessability picture stuff"
+                          src={{taskBox.asset}} />
+            </div>
+            <div class="col-7 hymans-flex">
+              <div class="hymans-task-header ng-test-header-{{i}}">{{taskBox.header}}</div>
+              <div class="hymans-task-body ng-test-body-{{i}}">{{taskBox.text}}</div>
+              <div><a class="hymans-link ng-test-link-{{i}}" href={{taskBox.link}}>Visit app<fa-icon [icon]="faAngleRight"></fa-icon></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

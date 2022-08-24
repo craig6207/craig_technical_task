@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+:root {
+    --hymans-black: #212121;
+    --hymans-body: #696765;
+    --hymans-hyperlink: #455560;
+    --hymans-banner-one: #70bc1f;
+    --hymans-banner-two: #00ace1;
+    --hymans-background: #e9f2f9;
+  }
+  body{
+    background-color: var(--hymans-background);
+  }
+
+  .hymans-link {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--hymans-hyperlink) !important;
+    position: absolute;
+    bottom: 20px;
+  }
+
+  .hymans-task-header {
+    font-size: 20px; 
+    font-weight: 500;
+    color: var(--hymans-black);
+    padding-bottom: 15px;
+  }
+
+  .hymans-task-body {
+    font-size: 14px; 
+    color: var(--hymans-body);
+  }
+
+  * {
+    font-family: 'Roboto';
+    font-weight: 400;
+  }
